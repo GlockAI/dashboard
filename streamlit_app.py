@@ -34,8 +34,8 @@ col2.metric("Wind", "9 mph", "-8%")
 col3.metric("Humidity", "86%", "4%")
 
 # Cargar datos
-seattle_weather = pd.read_csv('data/seattle-weather.csv', parse_dates=['date'])
-stocks = pd.read_csv('data/stocks_toy.csv')
+seattle_weather = pd.read_csv('seattle-weather.csv', parse_dates=['date'])
+stocks = pd.read_csv('stocks_toy.csv')
 
 # Segunda Fila
 c1, c2 = st.columns((7,3))
